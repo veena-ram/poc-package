@@ -1,0 +1,11 @@
+framework module enterprise_mobile_framework {
+  umbrella header "enterprise_mobile_framework.h"
+
+  export *
+  module * { export * }
+}
+
+module enterprise_mobile_framework.Swift {
+    header "enterprise_mobile_framework-Swift.h"
+    requires objc
+}

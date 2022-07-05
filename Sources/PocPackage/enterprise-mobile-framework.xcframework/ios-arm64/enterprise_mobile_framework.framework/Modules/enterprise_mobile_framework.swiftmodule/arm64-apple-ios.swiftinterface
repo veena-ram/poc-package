@@ -1,0 +1,19 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name enterprise_mobile_framework
+import AWSDK
+import Foundation
+import Swift
+import _Concurrency
+@_exported import enterprise_mobile_framework
+public struct EMF {
+  public static func greet() -> Swift.String
+}
+@_hasMissingDesignatedInitializers public class EMFHelper : AWSDK.AWControllerDelegate {
+  public static let shared: enterprise_mobile_framework.EMFHelper
+  public func initializeEmf()
+  @objc public func controllerDidFinishInitialCheck(error: Foundation.NSError?)
+  public func openUrl(url: Foundation.URL)
+  public func checkAWSdk()
+  @objc deinit
+}
