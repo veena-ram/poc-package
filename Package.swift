@@ -21,8 +21,7 @@ let package = Package(
         .target(
             name: "PocPackage",
             dependencies: []),
-        .binaryTarget(name: "AWSDK",
-                      path: "./Sources/PocPackage/AWSDK.xcframework"),
+        .binaryTarget(name: "AWSDK", url: "https://vmwaresaas.jfrog.io/artifactory/Workspace-ONE-iOS-SDK/MAMSDK/Release/22.5.0/AWSDK.xcframework.zip", checksum:"3008d20d272f32aaacf073c0a0a327ea3beeb6de6675b44188120df140a11def"),
         .binaryTarget(name: "enterprise-mobile-framework",
                       path: "./Sources/PocPackage/enterprise-mobile-framework.xcframework")
     ]
