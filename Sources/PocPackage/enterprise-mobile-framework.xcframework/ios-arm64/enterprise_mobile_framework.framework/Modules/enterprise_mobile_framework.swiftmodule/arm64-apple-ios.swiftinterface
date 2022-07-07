@@ -11,6 +11,7 @@ public struct EMF {
 }
 @_hasMissingDesignatedInitializers public class EMFHelper : AWSDK.AWControllerDelegate {
   public static let shared: enterprise_mobile_framework.EMFHelper
+  public func initializeEmf()
   @objc public func controllerDidFinishInitialCheck(error: Foundation.NSError?)
   public func openUrl(url: Foundation.URL)
   public func checkAWSdk()
