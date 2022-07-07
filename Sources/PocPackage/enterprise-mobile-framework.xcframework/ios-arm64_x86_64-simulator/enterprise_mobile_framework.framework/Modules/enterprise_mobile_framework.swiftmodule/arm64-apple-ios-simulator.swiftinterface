@@ -9,7 +9,8 @@ import _Concurrency
 public struct EMF {
   public static func greet() -> Swift.String
 }
-@_hasMissingDesignatedInitializers public class EMFHelper : AWSDK.AWControllerDelegate {
+public class EMFHelper : AWSDK.AWControllerDelegate {
+  public init(callbackSceme: Swift.String)
   public func initializeEmf(callbackScheme: Swift.String)
   @objc public func controllerDidFinishInitialCheck(error: Foundation.NSError?)
   public func openUrl(url: Foundation.URL)
