@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AWSDKDefaultSettings.plist</key>
+		<data>
+		jwRuukZd8uHmmwqKaIdb6jX424c=
+		</data>
 		<key>Headers/enterprise_mobile_framework-Swift.h</key>
 		<data>
 		jSLwbhnR/c8/3Am0O+RdKjbaMrs=
@@ -26,7 +30,7 @@
 		</data>
 		<key>Modules/enterprise_mobile_framework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		lIcl9WR1zeLXN7TpuHSmExzvu38=
+		MoW0ikrg5CmCjlg+ruLUIQpobv8=
 		</data>
 		<key>Modules/enterprise_mobile_framework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -38,7 +42,7 @@
 		</data>
 		<key>Modules/enterprise_mobile_framework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		vBbSRzYQQYc0E5ega463jEYT1MY=
+		KTPr/38inojAni164FINKpqTYCM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,6 +51,13 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AWSDKDefaultSettings.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GwjO+Hms0y6sKGMXUyHfqnb55UYuQwbzzLs7bSMjlPA=
+			</data>
+		</dict>
 		<key>Headers/enterprise_mobile_framework-Swift.h</key>
 		<dict>
 			<key>hash2</key>
@@ -79,7 +90,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cCOF1Hxvxb30gPu4gsHfEXu1W9jK02kYoKFkk4JAWVg=
+			/De5lysEcPtRcODuRX3G1XYtTm3bUHripjW+Q4Og8/E=
 			</data>
 		</dict>
 		<key>Modules/enterprise_mobile_framework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -100,7 +111,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			H5Wh1lZyv2NffpGwyZrrct+TtZUQOEntFK7qMxhVTA0=
+			yNTaNXhh7ppMH3A2H5udTZBpS6kQFWndX25mLQHrA48=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
