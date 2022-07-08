@@ -18,3 +18,8 @@ public struct EMF {
   public func checkAWSdk()
   @objc deinit
 }
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class UIAppHelper : UIKit.UIResponder, UIKit.UIApplicationDelegate {
+  @_Concurrency.MainActor(unsafe) @objc public func application(_ application: UIKit.UIApplication, shouldAllowExtensionPointIdentifier extensionPointIdentifier: UIKit.UIApplication.ExtensionPointIdentifier) -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
