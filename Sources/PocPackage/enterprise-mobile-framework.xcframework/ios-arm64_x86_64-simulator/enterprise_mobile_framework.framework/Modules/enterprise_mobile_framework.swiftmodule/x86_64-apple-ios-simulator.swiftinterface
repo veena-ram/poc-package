@@ -19,6 +19,6 @@ public struct EMF {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class DataLossPrevention {
-  public static func detectScreenShot(_ action: @escaping () -> Swift.Void)
+  public static func detectScreenShot()
   @objc deinit
 }
