@@ -9,12 +9,13 @@ import _Concurrency
 public struct EMF {
   public static func greet() -> Swift.String
 }
-@_hasMissingDesignatedInitializers public class EMFHelper : AWSDK.AWControllerDelegate {
-  public static let shared: enterprise_mobile_framework.EMFHelper
-  public func initializeEmf(callbackScheme: Swift.String)
-  @objc public func controllerDidFinishInitialCheck(error: Foundation.NSError?)
-  public func openUrl(url: Foundation.URL)
-  public func checkAWSdk()
-  public func application(_ application: UIKit.UIApplication, shouldAllowExtensionPointIdentifier extensionPointIdentifier: UIKit.UIApplication.ExtensionPointIdentifier) -> Swift.Bool
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class EMFHelper : ObjectiveC.NSObject, AWSDK.AWControllerDelegate, UIKit.UIApplicationDelegate {
+  @_Concurrency.MainActor(unsafe) public static let shared: enterprise_mobile_framework.EMFHelper
+  @_Concurrency.MainActor(unsafe) public func initializeEmf(callbackScheme: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc public func controllerDidFinishInitialCheck(error: Foundation.NSError?)
+  @_Concurrency.MainActor(unsafe) public func openUrl(url: Foundation.URL)
+  @_Concurrency.MainActor(unsafe) public func checkAWSdk()
+  @_Concurrency.MainActor(unsafe) @objc public func application(_ application: UIKit.UIApplication, shouldAllowExtensionPointIdentifier extensionPointIdentifier: UIKit.UIApplication.ExtensionPointIdentifier) -> Swift.Bool
+  @objc override dynamic public init()
   @objc deinit
 }
