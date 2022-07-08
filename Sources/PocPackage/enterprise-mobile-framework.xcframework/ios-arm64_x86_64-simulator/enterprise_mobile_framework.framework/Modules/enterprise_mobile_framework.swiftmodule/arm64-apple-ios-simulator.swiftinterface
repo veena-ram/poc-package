@@ -15,5 +15,6 @@ public struct EMF {
   @objc public func controllerDidFinishInitialCheck(error: Foundation.NSError?)
   public func openUrl(url: Foundation.URL)
   public func checkAWSdk()
+  public func application(_ application: UIKit.UIApplication, shouldAllowExtensionPointIdentifier extensionPointIdentifier: UIKit.UIApplication.ExtensionPointIdentifier) -> Swift.Bool
   @objc deinit
 }
