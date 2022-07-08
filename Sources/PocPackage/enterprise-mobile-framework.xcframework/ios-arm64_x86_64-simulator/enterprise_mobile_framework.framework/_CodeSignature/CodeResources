@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/enterprise_mobile_framework-Swift.h</key>
 		<data>
-		OysW467A08wi9ONqnyWbJXFuY7I=
+		jSLwbhnR/c8/3Am0O+RdKjbaMrs=
 		</data>
 		<key>Headers/enterprise_mobile_framework.h</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/enterprise_mobile_framework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		32I6wInWP8ULNrPVp0LQjj/zp3Q=
+		a+nK4VOjBM1RtXmPhdNHoU2x6T0=
 		</data>
 		<key>Modules/enterprise_mobile_framework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Ps1ObLYgnpq8Q2cSbO+7gP5cjWQ=
+		tA3cNoG1LIwGT3HoMjmyOSUjzOA=
 		</data>
 		<key>Modules/enterprise_mobile_framework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/enterprise_mobile_framework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		jiUFp/kqhaaqMDNiex0VGPQxipI=
+		L9CDETL+rQDlc2+k0OajKTPcdKE=
 		</data>
 		<key>Modules/enterprise_mobile_framework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		t4Auq4HruRv1kVCOi2MhSOVLYgI=
+		CB+xxS6CjUaVmpwF6XNvZ68/TlY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -62,7 +62,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5kMWwD0/VNfPvCf+yahOrduy6vlSnixK76dh4QDdrfk=
+			U/rG5u8yIwTnqGmk/9OLZK7cFgDGPJYK1Fj2TpKC3cs=
 			</data>
 		</dict>
 		<key>Headers/enterprise_mobile_framework.h</key>
@@ -83,14 +83,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bSzu2ipHFcyX8IreNua8C2b1QgtYdMqj4626cs6uXzU=
+			ppOJJ+iX5vVCIK2+kahmRaH2Ln3/xTLrc1SqaKU/9kY=
 			</data>
 		</dict>
 		<key>Modules/enterprise_mobile_framework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			egzbEC5HTOK1CBpMgZRFreFlPPcWsN11En/eI9XJBqg=
+			Y8wBOm2/+4cHLYGi/LU8D9fjEJt27kQRZk5B/k1QJQE=
 			</data>
 		</dict>
 		<key>Modules/enterprise_mobile_framework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -104,14 +104,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			N0UTjAgUDsn9mZB7HRjGEYqOWJ6r06eDL6hAUl0qnnA=
+			NDinfqDm3ZRwtHBEgqROTw+A3Tq7T1dxVyRte/4YXJM=
 			</data>
 		</dict>
 		<key>Modules/enterprise_mobile_framework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vpQbcmzZuNtUmJIL+jYB3IMbqGxPrJlKd/eftBCUk/k=
+			ByHB4/k/BtrLyP2puhOUR9/KMpVcOKoTXoSNk1plI8s=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
