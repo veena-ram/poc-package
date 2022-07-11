@@ -20,7 +20,7 @@ public struct EMF {
   @objc deinit
 }
 public struct FileViewer : SwiftUI.UIViewControllerRepresentable {
-  public init(url: Foundation.URL, isPresented: Swift.Bool)
+  public init(url: Foundation.URL, isPresented: SwiftUI.Binding<Swift.Bool>)
   @_Concurrency.MainActor(unsafe) public func makeUIViewController(context: enterprise_mobile_framework.FileViewer.Context) -> UIKit.UINavigationController
   @_Concurrency.MainActor(unsafe) public func updateUIViewController(_ uiViewController: UIKit.UINavigationController, context: enterprise_mobile_framework.FileViewer.Context)
   @_Concurrency.MainActor(unsafe) public func makeCoordinator() -> enterprise_mobile_framework.FileViewer.Coordinator
