@@ -6,6 +6,7 @@ import Foundation
 import Swift
 import SwiftUI
 import _Concurrency
+import _QuickLook_SwiftUI
 @_exported import enterprise_mobile_framework
 public struct EMF {
   public static func greet() -> Swift.String
@@ -16,8 +17,5 @@ public struct EMF {
   @objc public func controllerDidFinishInitialCheck(error: Foundation.NSError?)
   public func openUrl(url: Foundation.URL)
   public func checkAWSdk()
-  @objc deinit
-}
-@_hasMissingDesignatedInitializers public class DataLossPrevention {
   @objc deinit
 }
