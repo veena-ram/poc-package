@@ -19,3 +19,15 @@ public struct EMF {
   public func checkAWSdk()
   @objc deinit
 }
+public struct FileViewer : SwiftUI.UIViewControllerRepresentable {
+  @_Concurrency.MainActor(unsafe) public func makeUIViewController(context: enterprise_mobile_framework.FileViewer.Context) -> UIKit.UINavigationController
+  @_Concurrency.MainActor(unsafe) public func updateUIViewController(_ uiViewController: UIKit.UINavigationController, context: enterprise_mobile_framework.FileViewer.Context)
+  @_Concurrency.MainActor(unsafe) public func makeCoordinator() -> enterprise_mobile_framework.FileViewer.Coordinator
+  @_hasMissingDesignatedInitializers public class Coordinator : QuickLook.QLPreviewControllerDataSource {
+    @objc public func numberOfPreviewItems(in controller: QuickLook.QLPreviewController) -> Swift.Int
+    @objc public func previewController(_ controller: QuickLook.QLPreviewController, previewItemAt index: Swift.Int) -> QuickLook.QLPreviewItem
+    @objc deinit
+  }
+  public typealias Body = Swift.Never
+  public typealias UIViewControllerType = UIKit.UINavigationController
+}
